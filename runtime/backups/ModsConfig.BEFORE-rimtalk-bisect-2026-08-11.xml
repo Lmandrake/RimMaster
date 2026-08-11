@@ -58,12 +58,14 @@
     <li>vita.campdangers</li>
     <li>xmb.ancientminingindustry.mo</li>
     <li>aqued.dredgeaberrations</li>
+    <li>rpgwanderer.opturret</li>
     <li>neronix17.asimov</li>
     <li>asp.halituisamaricanous</li>
     <li>kshtantrumsounds.mod</li>
     <li>automatic.autolinks</li>
     <li>fuu.autostriponhaul</li>
     <li>mlie.beastsoftherim</li>
+    <li>elsov.beliar</li>
     <li>io.github.relvl.rimworld.bestapparel</li>
     <li>ionfrigate12345.coolandgoodambush</li>
     <li>mlie.betterbeggars</li>
@@ -118,9 +120,12 @@
     <li>merthsoft.designatorshapes</li>
     <li>milkwater.destinymod</li>
     <li>garwel.destroyitem</li>
+    <li>det.avaloi</li>
     <li>det.boglegs</li>
     <li>det.brawnum</li>
+    <li>det.buzzers</li>
     <li>det.keshig</li>
+    <li>det.venators</li>
     <li>cometopapa.deteriorated</li>
     <li>futurplanet.disassemblemechanoid</li>
     <li>lornath.diseaseimmunityprogresstracker</li>
@@ -130,6 +135,7 @@
     <li>dubwise.dubsmintmenus</li>
     <li>dubwise.dubsmintminimap</li>
     <li>blues.forge</li>
+    <li>maincrep.eweb</li>
     <li>yourname.effigys.mod</li>
     <li>carnysenpai.enableoversizedweapons</li>
     <li>nep.enginesunlimited</li>
@@ -147,8 +153,8 @@
     <li>kathanon.floatsubmenu</li>
     <li>temeez.floorlights2</li>
     <li>aoba.fortress.neolithic</li>
-    <li>masstell.geneticdrift16</li>
     <li>m00nl1ght.geologicallandforms</li>
+    <li>xmb.giantimperialcannonturret.mo</li>
     <li>zal.giantsnake</li>
     <li>memegoddess.giddyup</li>
     <li>lts.geg</li>
@@ -243,6 +249,7 @@
     <li>planetace.nondestructivegravlaunch</li>
     <li>mehni.numbers</li>
     <li>onimods.electrictorches</li>
+    <li>karew.orcclan</li>
     <li>coolzie.oocreboost</li>
     <li>sysmy.partyexpansion</li>
     <li>arkymn.slowerpawntickrate</li>
@@ -258,6 +265,7 @@
     <li>laureeeeeeeeeeeeeeen.shrooms</li>
     <li>fluxilis.germanquality</li>
     <li>dawnsglow.qualcolor</li>
+    <li>rah.rvte</li>
     <li>leo.raidprotectionfee</li>
     <li>ingendum.raiderswarmcompression</li>
     <li>zal.randomgrowthchoices</li>
@@ -265,6 +273,7 @@
     <li>mlie.realistichumansounds</li>
     <li>mosi.rebalancedancientjunk</li>
     <li>mlie.recyclethis</li>
+    <li>reel.turretpipeline</li>
     <li>mlie.relevantstatsindescription</li>
     <li>memegoddess.replacestuff</li>
     <li>petetimessix.researchreinvented</li>
@@ -280,10 +289,13 @@
     <li>mlie.rimquest</li>
     <li>sierra.rt.generaltraits</li>
     <li>depscian.rimtunes</li>
+    <li>sov.sith</li>
     <li>thelastbulletbender.rwexploration</li>
     <li>mianreplicate.romanceandintimacyontherim</li>
+    <li>tug.minotaur</li>
     <li>kupie.isjustdoingitlive.plzdonthateme.roofedscanning</li>
     <li>ghost.rootsofrimworld</li>
+    <li>memegoddess.runandgun</li>
     <li>moja.salvagerubble</li>
     <li>plusblankplus.scenarioamenderfork</li>
     <li>memegoddess.searchanddestroy</li>
@@ -368,6 +380,7 @@
     <li>vanillaexpanded.vfesecurity</li>
     <li>vanillaexpanded.vfespacer</li>
     <li>vanillaexpanded.gravship</li>
+    <li>vanillaexpanded.helixiengas</li>
     <li>vanillaexpanded.viehar</li>
     <li>vanillaexpanded.ideo.relicsandartifacts</li>
     <li>vanillaexpanded.vexploratione</li>
@@ -376,11 +389,13 @@
     <li>vanillaquestsexpanded.ancients</li>
     <li>vanillaquestsexpanded.cryptoforge</li>
     <li>vanillaquestsexpanded.generator</li>
+    <li>vanillaracesexpanded.archon</li>
+    <li>vanillaracesexpanded.fungoid</li>
     <li>vanillaracesexpanded.genie</li>
+    <li>vanillaracesexpanded.phytokin</li>
     <li>vanillaracesexpanded.saurid</li>
     <li>vanillaracesexpanded.starjack</li>
     <li>gravenwitch.vsrexamined</li>
-    <li>vanillaexpanded.vanillasocialinteractionsexpanded</li>
     <li>vanillaexpanded.vanillatradingexpanded</li>
     <li>vanillaexpanded.vanillatraitsexpanded</li>
     <li>vanillaexpanded.vwe</li>
@@ -388,6 +403,7 @@
     <li>gabrieel1482.raidvehicleframework</li>
     <li>ninagoblin.visitsettlements</li>
     <li>addvans.walktheworld</li>
+    <li>honeybadger.wallmountedturretsversiontwo</li>
     <li>ogliss.g223.wanderingcaravans</li>
     <li>addvans.wasdedpawn</li>
     <li>sl4vp0wer.weareunited</li>
@@ -453,7 +469,6 @@
     <li>vanillaexpanded.vcookestews</li>
     <li>kuhlyus.modpatch.vanillaoutpost</li>
     <li>mrhydralisk.voeadditionaloutposts</li>
-    <li>stagz.vsierationaltraitdevelopment</li>
     <li>arcjc007.wallstuff</li>
     <li>com.yayo.yayoani.continued</li>
     <li>mlie.yayoscombat3</li>
@@ -506,7 +521,6 @@
     <li>meteores.ancienturbanruinsvanillaloot.aurvl</li>
     <li>chezhou.chezhoulib.lib</li>
     <li>teiwaz.gtgtradercore</li>
-    <li>ab.hoffa</li>
     <li>keyz182.keyzallowutilities</li>
     <li>toastyman.moreritualseats</li>
     <li>sugarcube.puahsharedstorage</li>
@@ -522,6 +536,7 @@
     <li>vanillaexpanded.vtexe.facialanims</li>
     <li>oskarpotocki.vanillavehiclesexpanded</li>
     <li>divinederivative.romance</li>
+    <li>biotechrace.yautja.alleyballey</li>
     <li>teiwaz.taajg</li>
     <li>teiwaz.tacac</li>
     <li>killathon.artificialbeings.syncore</li>
@@ -564,6 +579,8 @@
     <li>guy762.kotordroids</li>
     <li>btd.gbp.shippack.kotor.vge</li>
     <li>mandrake.jawa.patches</li>
+    <li>mandrake.jawaionweapons</li>
+    <li>mandrake.jawavoice</li>
     <li>mandrake.rimdefdump</li>
   </activeMods>
   <knownExpansions>
