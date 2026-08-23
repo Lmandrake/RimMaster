@@ -1341,10 +1341,6 @@
 			<li>BiomeDef/ZBiome_Iceberg_NoBeach</li>
 			<li>BiomeDef/ZBiome_Marsh</li>
 			<li>BiomeDef/ZBiome_Sandbar_NoBeach</li>
-			<li>ThingDef/Husky</li>
-			<li>ThingDef/LabradorRetriever</li>
-			<li>ThingDef/Fox_Fennec</li>
-			<li>ThingDef/Capybara</li>
 		</keys>
 	</ModSettings>
 </SettingsBlock>
