@@ -1,25 +1,26 @@
 #!/usr/bin/env python3
-"""Wrapper for the C# selftest of StatPart_InverseBodySize
-(OTHER_STUN_WEAPONS_SURVEY_1 / ION_STUN_IGNORES_BODY_SIZE_1:
-src/RimStarWars/JawaIonWeapons/Source/StatPart_InverseBodySize.cs).
+"""Wrapper for the C# selftest of the RM_Property fabric
+(PROPERTY_FABRIC_BUILD_1: src/RimMandrake/Property/Source/).
 
-Same shape as selftest_pit_logic.py and selftest_colony_visibility.py, same
-reason: `selftest_*.py` is this project's established fast, offline,
-pre-commit test convention (see selftest_validate_patch.py), the tested
-logic is C# not Python, and there is still no xUnit/NUnit precedent under
-src/. The actual test is a standalone net472 console app -
-JawaIonWeapons/SelfTest/ - that compiles the REAL StatPart_InverseBodySize
-class in directly for its not-a-Pawn guard clause, and separately locks in
-the 25x (Rat/Human) and 1024x (Human/Behemoth) stun-severity scaling ratios
-measured live this session, via an extracted transcription of the transform
-(constructing a live Pawn with a controlled BodySize is not viable offline
-- see that project's own Program.cs header for exactly what is real vs.
-extracted and why).
+`selftest_*.py` is the established convention for fast, offline, pre-commit
+tests (see selftest_validate_patch.py for the canonical example and why the
+convention exists). The pieces this covers - ClaimDecay's pure decay math,
+ClaimantRef's equality contract, and ClaimEngine's own private
+strength/specificity/recency claim-resolution order - are C#, not Python.
+The actual test lives in a small standalone net472 console app -
+Property/Source/SelfTest/ (see that project's own .csproj/Program.cs
+headers for exactly what compiles the REAL production source in directly
+vs. what had to be extracted, and why PropertyEngine/ClaimEngine.
+ResolveClaim's own PUBLIC surface has nothing left to test offline - every
+entry point no-ops with no live Game). This script is just the one-line,
+`python3 selftest_property_fabric.py`-shaped door into it, so it slots into
+the same "loop over every selftest_*.py" habit as everything else here.
 
 dotnet is WINDOWS-NATIVE and cannot take a /mnt/d path, so this script
-finds dotnet.exe and converts the repo path to a D-drive-style path first.
+finds dotnet.exe and converts the repo-relative project path to a
+D-drive-style path before invoking it.
 
-    python3 selftest_stun_scaling.py
+    python3 selftest_property_fabric.py
 """
 from __future__ import annotations
 
@@ -31,8 +32,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # Utils -> RimMandrake -> src -> repo root.
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 CSPROJ = os.path.join(
-    REPO, "src", "RimStarWars", "JawaIonWeapons", "Source", "SelfTest",
-    "JawaIonWeapons.SelfTest.csproj",
+    REPO, "src", "RimMandrake", "Property", "Source", "SelfTest",
+    "RimMandrakeProperty.SelfTest.csproj",
 )
 
 DOTNET_CANDIDATES = [
@@ -60,7 +61,7 @@ def _to_windows_path(posix_path):
 
 def main():
     if not os.path.isfile(CSPROJ):
-        sys.exit("JawaIonWeapons.SelfTest.csproj not found at %s — the SelfTest "
+        sys.exit("RimMandrakeProperty.SelfTest.csproj not found at %s — the SelfTest "
                   "project moved or was never built" % CSPROJ)
 
     dotnet = _find_dotnet()
